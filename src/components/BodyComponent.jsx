@@ -190,7 +190,7 @@ const BodyComponent = ({ educations, projects }) => {
                 </div>
                 {/* FOOTER */}
                 <div className="border-t px-6 py-4">
-                  <h3 className="font-semibold text-sm mb-2">Technicals:</h3>
+                  <h3 className="font-semibold text-sm mb-2">Technologies:</h3>
                   <div className="flex flex-wrap gap-2">
                     {selectedProject.tech.map((t) => (
                       <span
